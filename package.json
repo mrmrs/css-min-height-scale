@@ -6,8 +6,7 @@
   "keywords": [
     "css",
     "oocss",
-    "",
-    ""
+    "min-height-scale"
   ],
   "css-min-height-scale": {
     "type": "git",

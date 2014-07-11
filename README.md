@@ -30,7 +30,7 @@ or download the css on github and include in your project.
 .mn-hi9   { min-height: 96rem; }
 .mn-hi10  { min-height: 128rem; }
 
-@include break(not-small) {
+@media screen and (min-width: 48em) {
   .mn-hi1-ns   { min-height: 1rem; }
   .mn-hi2-ns   { min-height: 2rem; }
   .mn-hi3-ns   { min-height: 4rem; }
@@ -43,7 +43,7 @@ or download the css on github and include in your project.
   .mn-hi10-ns  { min-height: 128rem; }
 }
 
-@include break(medium) {
+@media screen and (min-width: 48em) and (max-width: 64em) {
   .mn-hi1-m   { min-height: 1rem; }
   .mn-hi2-m   { min-height: 2rem; }
   .mn-hi3-m   { min-height: 4rem; }
@@ -57,7 +57,7 @@ or download the css on github and include in your project.
 
 }
 
-@include break(large) {
+@media screen and (min-width: 64em)  {
   .mn-hi1-l   { min-height: 1rem; }
   .mn-hi2-l   { min-height: 2rem; }
   .mn-hi3-l   { min-height: 4rem; }

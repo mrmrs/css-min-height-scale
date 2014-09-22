@@ -20,7 +20,8 @@ View on [npm](https://www.npmjs.org/package/css-min-height-scale)
 ## File Size
 
 1.6K min-height-scale.css
-1.2K min-height-scale.min.css
+1.2K min-height-scale.min.css 
+248B minified and gzipped
 
 ## The Code
 ```

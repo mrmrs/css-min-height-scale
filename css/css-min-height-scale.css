@@ -1,3 +1,4 @@
+/* Media Queries */
 /*
    MIN HEIGHTS
 */
@@ -11,7 +12,7 @@
 .mn-hi8 { min-height: 64rem; }
 .mn-hi9 { min-height: 96rem; }
 .mn-hi10 { min-height: 128rem; }
-@media screen and (min-width: 48em) {
+@media (min-width: 48em) {
  .mn-hi1-ns { min-height: 1rem; }
  .mn-hi2-ns { min-height: 2rem; }
  .mn-hi3-ns { min-height: 4rem; }
@@ -23,7 +24,7 @@
  .mn-hi9-ns { min-height: 96rem; }
  .mn-hi10-ns { min-height: 128rem; }
 }
-@media screen and (min-width:48em) and (max-width: 64em) {
+@media (min-width: 48em) and (max-width: 64em) {
  .mn-hi1-m { min-height: 1rem; }
  .mn-hi2-m { min-height: 2rem; }
  .mn-hi3-m { min-height: 4rem; }
@@ -35,7 +36,7 @@
  .mn-hi9-m { min-height: 96rem; }
  .mn-hi10-m { min-height: 128rem; }
 }
-@media screen and (min-width: 64em) {
+@media (min-width: 64em) {
  .mn-hi1-l { min-height: 1rem; }
  .mn-hi2-l { min-height: 2rem; }
  .mn-hi3-l { min-height: 4rem; }

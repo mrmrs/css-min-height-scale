@@ -1,3 +1,10 @@
+/* Media Queries */
+
+@custom-media --breakpoint-not-small (min-width: 48em);
+@custom-media --breakpoint-medium (min-width: 48em) and (max-width: 64em);
+@custom-media --breakpoint-large (min-width: 64em);
+
+
 /*
    MIN HEIGHTS
 */
@@ -13,7 +20,7 @@
 .mn-hi9   { min-height: 96rem; }
 .mn-hi10  { min-height: 128rem; }
 
-@media screen and (min-width: 48em) {
+@media (--breakpoint-not-small) {
   .mn-hi1-ns   { min-height: 1rem; }
   .mn-hi2-ns   { min-height: 2rem; }
   .mn-hi3-ns   { min-height: 4rem; }
@@ -26,7 +33,7 @@
   .mn-hi10-ns  { min-height: 128rem; }
 }
 
-@media screen and (min-width:48em) and (max-width: 64em) {
+@media (--breakpoint-medium) {
   .mn-hi1-m   { min-height: 1rem; }
   .mn-hi2-m   { min-height: 2rem; }
   .mn-hi3-m   { min-height: 4rem; }
@@ -40,7 +47,7 @@
 
 }
 
-@media screen and (min-width: 64em) {
+@media (--breakpoint-large) {
   .mn-hi1-l   { min-height: 1rem; }
   .mn-hi2-l   { min-height: 2rem; }
   .mn-hi3-l   { min-height: 4rem; }

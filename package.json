@@ -1,38 +1,44 @@
 {
   "name": "css-min-height-scale",
-  "style": "min-height-scale.css",
-  "version": "1.0.6",
-  "homepage": "http://github.com/mrmrs/css-min-height-scale",
-  "description": "Css module of single purpose classes for min height scale",
+  "version": "2.0.0",
+  "description": "Functional CSS for min-height-scale",
+  "style": "dist/min-height-scale.css",
+  "main": "dist/min-height-scale.css",
+  "exports": {
+    ".": "./dist/min-height-scale.css",
+    "./dist/*": "./dist/*",
+    "./src/*": "./src/*"
+  },
+  "files": [
+    "dist",
+    "src"
+  ],
+  "scripts": {
+    "build": "node build.js",
+    "prepublishOnly": "npm run build"
+  },
   "keywords": [
     "css",
-    "oocss",
-    "min-height-scale"
+    "min-height-scale",
+    "utility",
+    "single-purpose",
+    "functional-css"
   ],
-  "css-min-height-scale": {
+  "homepage": "https://github.com/mrmrs/css-min-height-scale",
+  "repository": {
     "type": "git",
-    "url": "http://github.com/mrmrs/css-min-height-scale.git"
+    "url": "https://github.com/mrmrs/css-min-height-scale.git"
   },
   "bugs": {
-    "url": "https://github.com/mrmrs/css-min-height-scale/issues",
-    "email": "hi@mrmrs.cc"
+    "url": "https://github.com/mrmrs/css-min-height-scale/issues"
   },
   "author": {
     "name": "Adam Morse",
     "email": "hi@mrmrs.cc",
     "url": "http://mrmrs.cc"
   },
-  "contributors": [
-    {
-      "name": "Adam Morse",
-      "email": "hi@mrmrs.cc"
-    }
-  ],
-  "license": "MIT",
+  "license": "ISC",
   "devDependencies": {
     "lightningcss": "^1"
-  },
-  "scripts": {
-    "build": "node build.js"
   }
 }

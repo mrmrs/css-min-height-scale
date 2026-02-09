@@ -13,7 +13,7 @@
 .mn-hi9   { min-height: 96rem; }
 .mn-hi10  { min-height: 128rem; }
 
-@media screen and (min-width: 48em) {
+@media screen and (min-width: 32em) {
   .mn-hi1-s   { min-height: 1rem; }
   .mn-hi2-s   { min-height: 2rem; }
   .mn-hi3-s   { min-height: 4rem; }
@@ -26,7 +26,7 @@
   .mn-hi10-s  { min-height: 128rem; }
 }
 
-@media screen and (min-width:48em) and (max-width: 64em) {
+@media screen and (min-width:48em) {
   .mn-hi1-m   { min-height: 1rem; }
   .mn-hi2-m   { min-height: 2rem; }
   .mn-hi3-m   { min-height: 4rem; }
@@ -40,7 +40,7 @@
 
 }
 
-@media screen and (min-width: 64em) {
+@media screen and (min-width: 96em) {
   .mn-hi1-l   { min-height: 1rem; }
   .mn-hi2-l   { min-height: 2rem; }
   .mn-hi3-l   { min-height: 4rem; }
